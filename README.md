@@ -8,18 +8,18 @@
 - [x] 1. Desafio 1.1 - Variáveis, condicionais e operadores</li>
 - [x] 2. Desafio 1.2 - Objetos e Vetores
 - [x] 3. Desafio 1.3 - Funções e estruturas de repetição
-- [x] 4. Desafio 1.4 - Aplicação: Operações bancárias
+- [ ] 4. Desafio 1.4 - Aplicação: Operações bancárias
 
 ## Módulo 2 - Introdução ao Front-End
-- [x] 1. Desafio 2.1 - Primeiro HTML
-- [x] 2. Desafio 2.2 - Página de Descrição
-- [x] 3. Desafio 2.3 - Página de Cursos e Iframe
-- [x] 4. Desafio 2.4 - Foodfy (Site de Receitas no qual utilizamos Modal-Overlay e Iframe)
+- [ ] 1. Desafio 2.1 - Primeiro HTML
+- [ ] 2. Desafio 2.2 - Página de Descrição
+- [ ] 3. Desafio 2.3 - Página de Cursos e Iframe
+- [ ] 4. Desafio 2.4 - Foodfy (Site de Receitas no qual utilizamos Modal-Overlay e Iframe)
 
 ## Módulo 3 - Introdução ao Back-End
-- [x] 1. Desafio 3.1 - Primeiro servidor
-- [x] 2. Desafio 3.2 - Nunjucks e dados dinâmicos
-- [x] 3. Desafio 3.3 - Página de descrição de cursos
+- [ ] 1. Desafio 3.1 - Primeiro servidor
+- [ ] 2. Desafio 3.2 - Nunjucks e dados dinâmicos
+- [ ] 3. Desafio 3.3 - Página de descrição de cursos
 - [ ] 4. Desafio 3.4 - Refatorando Foodfy (Adicionar a conexão com o backend)
 
 ## Módulo 4 - Controle de Academia
