@@ -10,6 +10,6 @@ if (!(idade >= 18) || idade === 17) {
     console.log(`Deixar entrar.`)
 }   
 // avisar para voltar quando fizer 18 anos
-if (idade === 17) {
+if (idade === 17)  {
     console.log('Volte quando fizer 18 anos')
 }
