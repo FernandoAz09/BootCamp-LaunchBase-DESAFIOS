@@ -1,0 +1,80 @@
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap";
+
+:root {
+    --color-blue: #264ed4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #282a36;
+    font-family: "Source Sans Pro";
+    color: white;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.Links {
+    text-align: center;
+}
+
+.Links a{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 26px;
+    text-decoration: none;
+    transition: color 1000ms;
+}
+
+.Links a:hover {
+    color: var(--color-blue);
+    transition: color 500ms;
+    border-bottom: 2px solid var(--color-blue);
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid var(--color-blue);
+    height: 300px;
+    margin-bottom: 32px;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;    
+}
+
+#wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#wrapper p {
+    max-width: 500px; 
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#wrapper p a {
+    color: var(--color-blue);
+    text-decoration: none;
+}
