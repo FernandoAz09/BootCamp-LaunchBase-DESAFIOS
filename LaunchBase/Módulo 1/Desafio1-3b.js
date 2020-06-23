@@ -42,3 +42,29 @@ for (let usuario of usuarios) {
       console.log(`O usuário ${usuario.nome} trabalha com CSS`);
     }
 }
+
+// const jogadores= [
+//     { nome: "Branks", jogo: ["APEX"] },
+//     { nome: "BalthorHell", jogo: ["APEX", "PUBG lite"] },
+//     { nome: "ASM-BUGS", jogo: ["APEX", "PUBG lite"] }
+// ]
+
+// function checaSeJogaJogo4players(jogador) {
+//     for (let jogo of jogador.jogo) {
+//         if (jogo == 'PUBG lite') {
+//             return true
+//         }
+//     }
+
+//     return false
+// }
+
+// for (let jogador of jogadores) {
+//     const jogadorJogaJogo4players = checaSeJogaJogo4players(jogador)
+  
+//     if (jogadorJogaJogo4players) {
+//       console.log(`O jogador ${jogador.nome} está jogando um jogo de 4 players`)
+//     } else {
+// 	console.log(`O jogador ${jogador.nome} está jogando um jogo de apenas pra 3 players :/ e não vai ter como te chamar pra jogar`)
+// 	}
+// }
