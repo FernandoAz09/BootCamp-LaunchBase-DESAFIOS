@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/styles.css">
+    <head>
+        
+        {% block head %}
+
+            <title>Mayk Brito</title>
+            
+        {% endblock %}
+
+    </head>
+    <body>
+        <header>
+            <div class="Links">
+                <a href="/">Sobre</a>
+                <a href="/portfolio">Aulas</a>
+            </div>
+        </header> 
+        
+        {% block content %} <!-- ABRE O BLOCO COM NUNJUCKS -->
+                            <!-- TUDO O QUE FOR CHAMADO COM O BLOCK CONTENT SERÁ SUBSTITUIDO DE FORMA DINAMICA COM NUNJUCKS -->
+        {% endblock %} <!-- FECHA O BLOCO COM NUNJUCKS -->
+
+
+    </body>
+</html>
