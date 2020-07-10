@@ -19,10 +19,11 @@ document.querySelector('.maximize').addEventListener("click", function() { // Fu
     if (modal.classList.contains('maximize-modal')) {  //Verifica se a class contem o parametro ('')
         modal.classList.remove('maximize-modal') // Remove parametros('') da class
 
-        document.querySelector('#fullscreen').textContent = "fullscreen"
+        document.querySelector('#fullscreen').textContent = "fullscreen" 
+    
     } else {
         modal.classList.add('maximize-modal')
 
         document.querySelector('#fullscreen').textContent = "fullscreen_exit"
-    }
+        }
 })
