@@ -2,6 +2,7 @@
 
 :root {
     --color-rocket: #7159c1;
+    --color-green:  rgb(0, 255, 191);
 }
 
 * {
@@ -42,7 +43,7 @@ header {
 .Links a:hover{
     color: var(--color-rocket);
     transition: color 500ms;
-    border-bottom: 2px solid var(--color-rocket);
+    border-bottom: 2px solid var(--color-green);
 }
 
 .logo-img img{
@@ -54,17 +55,12 @@ header {
 .description h1{
     max-width: 200px; 
     margin: 32px auto;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 44px;
-    transition: color 500ms;
-    
+    text-shadow: 2px 2px 4px white;
+    color: var(--color-green);    
 }
 
-.description h1:hover {
-    color: rgb(0, 255, 191);
-    transition: color 500ms;
-    
-}
 
 .techs h2 p img li{
     max-width: 200px;
@@ -105,6 +101,12 @@ header {
 
 .techs img {
     width: 96px;
+    transition: 1500ms;
+}
+
+.techs img:hover {
+    width: 120px;
+    transition: 400ms;
 }
 
 /* **************** FOOTER **************** */
@@ -119,10 +121,11 @@ header {
     padding: 0 ;
 } 
 
-.footer p {
-    color: rgba(255, 255, 255, 0.062);
-    
+.direitos-reservados p,a{
+    color: rgba(255, 255, 255, 0.062);  
+    text-decoration: none;  
 }
+
 .footer-links { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -144,9 +147,12 @@ header {
 
 .wrapper h2{
     padding: 32px;
-    font-size: 24px;
+    font-size: 34px;
     line-height: 52px;
-    font-weight: bold;   
+    font-weight: bold; 
+    line-height: 44px;
+    text-shadow: 2px 2px 4px white;
+    color: var(--color-green);      
 }
 
 /* **************** CARDS **************** */
@@ -205,7 +211,7 @@ header {
 }
 
 .card:hover {
-    border-color: rgb(4, 211, 97);
+    border-color: var(--color-green);
     transition: 700ms;
     transform: translateY(-20px);
 }
@@ -215,12 +221,12 @@ header {
 }
 
 .card p strong {
-    color: rgb(4, 211, 97);
+    color: var(--color-green);
 }
 
 .card img {
     border: 1px solid;
-    border-color: rgb(4, 211, 97);
+    border-color: var(--color-green);
 }
 
 /* **************** MODAL **************** */
