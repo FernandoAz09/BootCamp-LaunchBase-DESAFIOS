@@ -12,7 +12,7 @@
 }
 
 body {    
-    background: url(/Desafio2-3/img/bkgd.svg) repeat;
+    background: url(/img/Untitled.svg) repeat;
     background-size: 100%;
 
     font-family: 'Roboto', sans-serif;
@@ -118,13 +118,8 @@ header {
     max-height: 120%;
     border-top: 1px solid #333;
     background: rgba(0, 0, 0, 0.8);
-    padding: 0 ;
+    padding: 10px ;
 } 
-
-.direitos-reservados p,a{
-    color: rgba(255, 255, 255, 0.062);  
-    text-decoration: none;  
-}
 
 .footer-links { 
     display: grid;
@@ -221,7 +216,7 @@ header {
 }
 
 .card p strong {
-    color: var(--color-green);
+    color: black;
 }
 
 .card img {
