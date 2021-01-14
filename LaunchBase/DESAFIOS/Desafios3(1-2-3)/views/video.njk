@@ -1,0 +1,36 @@
+{% extends "layout.njk" %}  <!-- QUANDO CHEGAR NESSA PÁGINA TENHO QUE IR PARA A PAGINA LAYOUT-->
+
+{% block head %}
+
+    <title>{{ item.title }}</title>
+    
+{% endblock %}
+
+{% block content %}
+
+
+        <div id="wrapper" class="video">
+            <h1>{{ item.title }}</h1>
+        </div>
+        
+        <section class="video">
+
+
+            <div class="card" id="{{item.id}}">
+                <div class="card__video-container">  {# se tiver o ITEM.FEATURED, adicione a classe FEATURED-WRAPPER #}
+                    <iframe src="https://www.youtube.com/embed/{{item.id}}" frameborder="0"></iframe>
+                </div>
+                <div class="card__content">
+                    {{item.title}}
+                </div>
+                <div class="card__info">
+                    <p>{{item.duration}}</p>
+                    <p class="card__price">{{item.price}}</p>
+                </div>
+            </div>
+
+
+            
+        </section>
+
+{% endblock %}

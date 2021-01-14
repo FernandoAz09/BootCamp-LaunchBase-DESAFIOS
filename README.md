@@ -14,12 +14,12 @@
 - [x] 1. Desafio 2.1 - Primeiro HTML
 - [x] 2. Desafio 2.2 - Página de Descrição
 - [x] 3. Desafio 2.3 - Página de Cursos e Iframe
-- [ ] 4. Desafio 2.4 - Foodfy (Site de Receitas no qual utilizamos Modal-Overlay e Iframe)
+- [x] 4. Desafio 2.4 - Foodfy (Site de Receitas no qual utilizamos Modal-Overlay e Iframe)
 
 ## Módulo 3 - Introdução ao Back-End
-- [ ] 1. Desafio 3.1 - Primeiro servidor
-- [ ] 2. Desafio 3.2 - Nunjucks e dados dinâmicos
-- [ ] 3. Desafio 3.3 - Página de descrição de cursos
+- [x] 1. Desafio 3.1 - Primeiro servidor
+- [x] 2. Desafio 3.2 - Nunjucks e dados dinâmicos
+- [x] 3. Desafio 3.3 - Página de descrição de cursos (ALTERADO PARA 3 CARDS DE PUBLICAÇÕES DO BLOG DA ROCKETSEAT)
 - [ ] 4. Desafio 3.4 - Refatorando Foodfy (Adicionar a conexão com o backend)
 
 ## Módulo 4 - Controle de Academia

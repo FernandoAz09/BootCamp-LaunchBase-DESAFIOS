@@ -1,0 +1,44 @@
+{% extends "layout.njk" %}  <!-- QUANDO CHEGAR NESSA PÁGINA TENHO QUE IR PARA A PAGINA LAYOUT-->
+
+{% block head %}
+
+    <title>Portfolio - Mayk Brito</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+
+
+        <div id="wrapper">
+            <h1>Aulas</h1>
+        </div>
+        
+        <section class="cards">
+
+            {% for item in items %}  {# Estrutura de repetição para substituição dos ITEMS vindos do data.js #}
+                <div class="card" id="{{item.id}}">
+                    <div class="card__image-container {{ 'featured-wrapper' if item.featured }}">  {# se tiver o ITEM.FEATURED, adicione a classe FEATURED-WRAPPER #}
+                        <img src="http://i3.ytimg.com/vi/{{item.id}}/maxresdefault.jpg" alt="Imagem de {{item.title}}"/>
+                        {% if item.featured %}  {# NUNJUKS também faz IF #}
+                            <div class="featured">Featured</div>  {# Só vai aparecer nos cards em que tem o featured no data.js  #}
+                         {% endif %} {# Fechamento do IF #}
+                    </div>
+                    <div class="card__content">
+                        {{item.title}}
+                    </div>
+                    <div class="card__info">
+                        <p>{{item.duration}}</p>
+                        <p class="card__price">{{item.price}}</p>
+                    </div>
+                </div>
+
+            {% endfor %} {# Fechamento do FOR , da repetição #}
+            
+        </section>
+
+        <script src="/scripts.js"></script>
+
+
+{% endblock %}
+
